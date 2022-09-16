@@ -5,6 +5,7 @@ from requests import Session
 import secrets
 from pprint import pprint as pp
 
+# testing GET request
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/map'
 headers = {
   'Accepts': 'application/json',
